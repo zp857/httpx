@@ -49,6 +49,8 @@ type Options struct {
 	NetworkPolicy             *networkpolicy.NetworkPolicy
 	CDNCheckClient            *cdncheck.Client
 	Protocol                  Proto
+
+	WithDialerHistory bool
 }
 
 // DefaultOptions contains the default options
